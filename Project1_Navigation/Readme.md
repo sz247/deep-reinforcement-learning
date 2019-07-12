@@ -33,7 +33,7 @@ The task is episodic, and in order to solve the environment, the agent must get 
 ### Instructions
 
 Follow the instructions in `Navigation.ipynb` to get started with training. 
-Navigation.ipynb - Jupyter notebook to load the envinronment and train the DQN agent
-dqn_agent.py - DQN agent to interact and learn from the envinronment
-model.py - network used by the agent, which contain 4 fully-connected layers. 
-checkpoint.pth - the model weights of a trained agent
+ - Navigation.ipynb - Jupyter notebook to load the envinronment and train the DQN agent
+ - dqn_agent.py - DQN agent to interact and learn from the envinronment
+ - model.py - network used by the agent, which contain 4 fully-connected layers. 
+ - checkpoint.pth - the model weights of a trained agent
