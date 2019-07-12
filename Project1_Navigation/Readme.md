@@ -28,8 +28,12 @@ The task is episodic, and in order to solve the environment, the agent must get 
     - Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86.zip)
     - Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip)
     
-2. Place the file in the DRLND GitHub repository, in the `p1_navigation/` folder, and unzip (or decompress) the file. 
+2. Place the file in the folder with the files from this repository, and unzip (or decompress) the file. 
 
 ### Instructions
 
-Follow the instructions in `Navigation.ipynb` to get started with training!  
+Follow the instructions in `Navigation.ipynb` to get started with training. 
+Navigation.ipynb - Jupyter notebook to load the envinronment and train the DQN agent
+dqn_agent.py - DQN agent to interact and learn from the envinronment
+model.py - network used by the agent, which contain 4 fully-connected layers. 
+checkpoint.pth - the model weights of a trained agent
